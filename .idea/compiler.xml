@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Groovy-Eclipse" />
     <annotationProcessing>
       <profile name="Annotation profile for reg" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -9,8 +10,8 @@
         <module name="reg" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="reg" target="1.6" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="reg" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
